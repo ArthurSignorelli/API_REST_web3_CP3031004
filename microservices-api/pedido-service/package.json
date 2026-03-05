@@ -1,0 +1,20 @@
+{
+  "name": "pedido-service",
+  "version": "1.0.0",
+  "description": "Microserviço de Pedidos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["api", "rest", "microservices"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.35.0",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1"
+  }
+}
